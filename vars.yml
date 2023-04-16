@@ -7,3 +7,11 @@
      ansible.builtin.debug:
        msg: url = {{ url }}
 
+- name: demo
+  hosts: localhost
+  tasks:
+    - name: print url
+      ansible.builtin.debug:
+        msg: url = {{ url }}
+      vars:
+        url: play.example.com
