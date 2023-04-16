@@ -1,4 +1,4 @@
 - name : test for front end
   debug:
-    msg: frontend
+    msg: fronten
 
