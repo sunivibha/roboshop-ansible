@@ -1,5 +1,7 @@
 - name: run roboshop component
   hosts: all
   roles:
-    - "{{ role name }}"
+    - '{{ role_name }}'
+
+
 
