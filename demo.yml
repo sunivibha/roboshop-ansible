@@ -1,5 +1,5 @@
 - name: demo on yml
-  hosts: all
+  hosts: localhost
   tasks:
     - name: print
       ansible.builtin.debug:
