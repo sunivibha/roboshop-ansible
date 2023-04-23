@@ -1,6 +1,0 @@
-- name: demo on yml
-  hosts: localhost
-  tasks:
-    - name: print
-      ansible.builtin.debug:
-        msg: hello
