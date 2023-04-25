@@ -1,6 +1,6 @@
 - name: test for frontend
   debug:
-    msg: fronten
+    msg: frontent
 
 
 
