@@ -8,6 +8,7 @@
   ansible.builtin.get_url:
     url: https://github.com/roboshop-devops-project/{{ COMPONENT }}/archive/main.zip
     dest: /tmp/{{ COMPONENT }}.zip
+    remote_src: yes
 
 - name: Remove Previous Version of App
   ansible.builtin.file:
