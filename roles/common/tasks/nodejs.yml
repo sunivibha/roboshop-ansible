@@ -14,3 +14,8 @@
 - name: Install nodejs dependencies
   community.general.npm:
     path: "{{ APP_LOC }}"
+
+- name: systemd tasks
+  ansible.builtin.include_role:
+    name: common
+    tasks_from: systemd
