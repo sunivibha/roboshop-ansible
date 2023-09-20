@@ -1,0 +1,8 @@
+- name: Create All RoboShop Parameters
+  hosts: localhost
+  tasks:
+    - name: Create Value
+      community.aws.aws_ssm_parameter_store:
+        name: "{{item.name}}"
+        value: "{{item.value}}"
+        region: "us-east-1"
