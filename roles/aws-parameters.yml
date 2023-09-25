@@ -9,3 +9,8 @@
       loop:
         - {name: "param.dev.catalogue.MONGO", value: "true"}
         - {name: "param.dev.user.MONGO", value: "true"}
+        - {name: "param.dev.frontend.CATALOGUE_URL", value: "http://dev-catalogue.suvi88.online:8080/"}
+        - {name: "param.dev.frontend.USER_URL", value: "http://dev-user.suvi88.online:8080/"}
+        - {name: "param.dev.frontend.CART_URL", value: "http://dev-cart.suvi88.online:8080/"}
+        - {name: "param.dev.frontend.SHIPPING_URL", value: "http://dev-shipping.suvi88.online:8080/"}
+        - {name: "param.dev.frontend.PAYMENT_URL", value: "http://dev-payment.suvi88.online:8080/"}
