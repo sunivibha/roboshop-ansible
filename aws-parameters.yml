@@ -8,8 +8,6 @@
         region: "us-east-1"
       loop:
         - {name: "param.dev.catalogue.MONGO", value: "true"}
-        - {name: "param.dev.user.MONGO_ENDPOINT", value: "dev-mongodb.suvi88.online:27017/catalogue"}
-        - {name: "param.dev.user.MONGO_URL", value: "mongodb://dev-mongodb.suvi88.online"}
         - {name: "param.dev.frontend.CATALOGUE_URL", value: "http://dev-catalogue.suvi88.online:8080/"}
         - {name: "param.dev.frontend.USER_URL", value: "http://dev-user.suvi88.online:8080/"}
         - {name: "param.dev.frontend.CART_URL", value: "http://dev-cart.suvi88.online:8080/"}
