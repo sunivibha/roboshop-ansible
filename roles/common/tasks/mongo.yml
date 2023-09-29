@@ -7,7 +7,7 @@
   ansible.builtin.yum:
     name: mongodb-org-shell
     state: installed
-
+# now we are nor loding schema inside database server(mongodb) we are loading it inside application server
 - name: Load Schema
   community.mongodb.mongodb_shell:
    login_host: "{{ lookup('aws_ssm', 'param.{{ENV}}.catalogue.MONGO_ENDPOINT', region='us-east-1' ) }}"
