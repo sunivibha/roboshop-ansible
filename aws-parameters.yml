@@ -16,10 +16,13 @@
         - {name: "param.dev.frontend.SHIPPING_URL", value: "http://dev-shipping.suvi88.online:8080/"}
         - {name: "param.dev.frontend.PAYMENT_URL", value: "http://dev-payment.suvi88.online:8080/"}
         - { name: "param.dev.user.MONGO", value: "true" }
-        - { name: "param.dev.user.MONGO_ENDPOINT", value: "dev-mongodb.suvi88.online" }
-        - { name: "param.dev.user.MONGO_URL", value: "mongodb://dev-mongodb.suvi88.online:27017/users" }
-        - { name: "param.dev.user.REDIS_HOST", value: "dev-redis.suvi88.online" }
-        - { name: "param.dev.cart.REDIS_HOST", value: "dev-redis.suvi88.online" }
-        - { name: "param.dev.cart.CATALOGUE_HOST", value: "dev-catalogue.suvi88.online" }
-        - { name: "param.dev.cart.CATALOGUE_PORT", value: "8080" }
-        - { name: "param.dev.mysql.ROOT_PASSWORD", value: "RoboShop@1" }
+        - { name: "param.dev.user.MONGO_ENDPOINT", value: "dev-mongodb.suvi88.online"}
+        - { name: "param.dev.user.MONGO_URL", value: "mongodb://dev-mongodb.suvi88.online:27017/users"}
+        - { name: "param.dev.user.REDIS_HOST", value: "dev-redis.suvi88.online"}
+        - { name: "param.dev.cart.REDIS_HOST", value: "dev-redis.suvi88.online"}
+        - { name: "param.dev.cart.CATALOGUE_HOST", value: "dev-catalogue.suvi88.online"}
+        - { name: "param.dev.cart.CATALOGUE_PORT", value: "8080"}
+        - { name: "param.dev.mysql.ROOT_PASSWORD", value: "RoboShop@1"}
+        - { name: "param.dev.shipping.DB_HOST", value: "dev-mysql.suvi88.online"}
+        - { name: "param.dev.shipping.CART_ENDPOINT", value: "dev-cart.suvi88.online:8080"}
+        - { name: "param.dev.shipping.ROOT_PASSWORD", value: "RoboShop@1"}
