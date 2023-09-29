@@ -19,7 +19,7 @@
   when: LOAD_SCHEMA
   ansible.builtin.include_role:
     name: common
-    tasks_from: "{{ DBTYPE }}"
+    tasks_from: "{{DBTYPE}}"
 
 - name: systemd tasks
   ansible.builtin.include_role:
