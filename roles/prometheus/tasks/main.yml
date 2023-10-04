@@ -1,5 +1,5 @@
 - name: setup prometheus server config
-  when: server is defined
+  when: PROMSERVER is defined
   ansible.builtin.include_role:
     name: prometheus
     tasks_from: server
