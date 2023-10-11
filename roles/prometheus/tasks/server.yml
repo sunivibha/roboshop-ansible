@@ -8,5 +8,9 @@
     name: prometheus
     state: restarted
 
+- name: Check Prometheus Service is running
+  ansible.builtin.shell: netstat -lntp | grep 9090
+
+
 
 
