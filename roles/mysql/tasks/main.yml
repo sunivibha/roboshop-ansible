@@ -48,7 +48,7 @@
 
 #    - name: Load MySQL Log File
 #      ansible.builtin.slurp:
-#        src: /var/log/mysqld.log
+#        src: /var/nodejs/mysqld.nodejs
 #      register: mysql_log
 #
 #    - name: Change Default Password

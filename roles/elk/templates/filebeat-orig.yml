@@ -18,7 +18,7 @@ filebeat.inputs:
   # you can use different inputs for various configurations.
   # Below are the input specific configurations.
 
-  # filestream is an input for collecting log messages from files.
+  # filestream is an input for collecting nodejs messages from files.
   - type: filestream
 
     # Unique ID among all inputs, an ID is required.
@@ -29,7 +29,7 @@ filebeat.inputs:
 
     # Paths that should be crawled and fetched. Glob based paths.
     paths:
-      - /var/log/*.log
+      - /var/nodejs/*.nodejs
       #- c:\programdata\elasticsearch\logs\*
 
     # Exclude lines. A list of regular expressions to match. It drops the lines that are
@@ -45,7 +45,7 @@ filebeat.inputs:
     #prospector.scanner.exclude_files: ['.gz$']
 
     # Optional additional fields. These fields can be freely picked
-    # to add additional information to the crawled log files for filtering
+    # to add additional information to the crawled nodejs files for filtering
     #fields:
     #  level: debug
     #  review: 1
@@ -169,8 +169,8 @@ processors:
 
     # ================================== Logging ===================================
 
-    # Sets log level. The default log level is info.
-    # Available log levels are: error, warning, info, debug
+    # Sets nodejs level. The default nodejs level is info.
+    # Available nodejs levels are: error, warning, info, debug
     #logging.level: debug
 
     # At debug level, you can selectively enable logging only for some components.
